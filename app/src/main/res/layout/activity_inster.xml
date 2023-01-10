@@ -1,0 +1,316 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".InsterActivity"
+    android:background="@color/black">
+
+    <!--TOP NAVBAR HOME ACTIVITY-->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:orientation="horizontal"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:gravity="right"
+        android:id="@+id/llTopNavBarHome"
+        android:visibility="gone"
+        >
+        <TextView
+            android:layout_width="0dp"
+            android:layout_weight=".70"
+            android:layout_height="match_parent"
+            android:text="Inster"
+            android:fontFamily="@font/pacifico"
+            android:textColor="@color/white"
+            android:textSize="34sp"
+            android:paddingLeft="20dp"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            />
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:layout_width="70dp"
+            android:layout_height="match_parent"
+            android:src="@drawable/ic_baseline_bubble_chart_24"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            android:paddingTop="20dp"
+            app:civ_circle_background_color="@color/white"
+            />
+    </LinearLayout>
+
+    <!--ACCOUNT ACTIVITY -->
+    <LinearLayout
+        android:id="@+id/lltopNavAcc"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:gravity="right"
+        android:orientation="horizontal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:id="@+id/tvusernameAcc"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight=".70"
+            android:fontFamily="sans-serif-medium"
+            android:paddingLeft="20dp"
+            android:paddingTop="10dp"
+            android:textColor="@color/white"
+            android:textSize="24sp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/civsettings"
+            android:layout_width="60dp"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/black"
+            android:paddingTop="15dp"
+            android:src="@drawable/ic_baseline_settings_24"
+            app:civ_border_width="1dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/llUser"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:orientation="vertical"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/lltopNavAcc">
+
+        <LinearLayout
+            android:id="@+id/llUserDetails"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/civAccUserProfilePic"
+                android:layout_width="130dp"
+                android:layout_height="100dp"
+                android:src="@drawable/default_profile_picture" />
+
+            <TableLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <TextView
+                        android:id="@+id/tvpostsCount"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:fontFamily="sans-serif-medium"
+                        android:paddingLeft="30dp"
+                        android:text="0"
+                        android:textColor="@color/white"
+                        android:textSize="50sp" />
+                    <TextView
+                        android:id="@+id/tvPosts"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:fontFamily="sans-serif-medium"
+                        android:paddingLeft="25dp"
+                        android:paddingTop="25dp"
+                        android:text="Posts"
+                        android:textColor="@color/white"
+                        android:textSize="25sp" />
+
+<!--                    <TextView-->
+<!--                        android:id="@+id/tvfollowersCount"-->
+<!--                        android:layout_width="70dp"-->
+<!--                        android:layout_height="35dp"-->
+<!--                        android:fontFamily="sans-serif-medium"-->
+<!--                        android:paddingLeft="30dp"-->
+<!--                        android:text="0"-->
+<!--                        android:textColor="@color/white"-->
+<!--                        android:textSize="22sp" />-->
+
+<!--                    <TextView-->
+<!--                        android:id="@+id/tvfollowingCount"-->
+<!--                        android:layout_width="70dp"-->
+<!--                        android:layout_height="35dp"-->
+<!--                        android:fontFamily="sans-serif-medium"-->
+<!--                        android:paddingLeft="30dp"-->
+<!--                        android:text="0"-->
+<!--                        android:textColor="@color/white"-->
+<!--                        android:textSize="22sp" />-->
+                </TableRow>
+
+<!--                <TableRow-->
+<!--                    android:layout_width="match_parent"-->
+<!--                    android:layout_height="match_parent">-->
+
+<!--                    <TextView-->
+<!--                        android:id="@+id/tvPosts"-->
+<!--                        android:layout_width="match_parent"-->
+<!--                        android:layout_height="match_parent"-->
+<!--                        android:fontFamily="sans-serif-medium"-->
+<!--                        android:paddingLeft="20dp"-->
+<!--                        android:text="Posts"-->
+<!--                        android:textColor="@color/white"-->
+<!--                        android:textSize="12sp" />-->
+
+<!--                    <TextView-->
+<!--                        android:id="@+id/tvFollowers"-->
+<!--                        android:layout_width="match_parent"-->
+<!--                        android:layout_height="match_parent"-->
+<!--                        android:fontFamily="sans-serif-medium"-->
+<!--                        android:paddingLeft="20dp"-->
+<!--                        android:text="Followers"-->
+<!--                        android:textColor="@color/white"-->
+<!--                        android:textSize="12sp" />-->
+
+<!--                    <TextView-->
+<!--                        android:id="@+id/tvFollowing"-->
+<!--                        android:layout_width="match_parent"-->
+<!--                        android:layout_height="match_parent"-->
+<!--                        android:fontFamily="sans-serif-medium"-->
+<!--                        android:paddingLeft="20dp"-->
+<!--                        android:text="Following"-->
+<!--                        android:textColor="@color/white"-->
+<!--                        android:textSize="12sp" />-->
+<!--                </TableRow>-->
+            </TableLayout>
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/btnEditProfile"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="30dp"
+            android:background="@drawable/rounded_loginbutton"
+            android:fontFamily="sans-serif-medium"
+            android:text="@string/editProfile"
+            android:textAllCaps="false"
+            android:textColor="@color/white" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/llPostsViews"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:background="@color/black"
+        android:orientation="horizontal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/llUser">
+
+        <ImageButton
+            android:id="@+id/ibgrid"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginLeft="125dp"
+            android:background="@drawable/ic_baseline_grid_on_24" />
+
+        <ImageButton
+            android:id="@+id/iblinear"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginLeft="75dp"
+            android:background="@drawable/ic_baseline_linear_24" />
+    </LinearLayout>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rvGridUserPosts"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@+id/llPostsViews"
+        android:visibility="gone"
+        />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/rvLinearUserPosts"
+        app:layout_constraintTop_toBottomOf="@+id/llPostsViews"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:visibility="gone"
+        android:paddingBottom="300dp"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/tvNoPosts"
+        android:text="No Posts"
+        android:textAllCaps="false"
+        android:textColor="@color/white"
+        android:gravity="center"
+        android:textSize="20sp"
+        app:layout_constraintTop_toBottomOf="@+id/llPostsViews"
+        app:layout_constraintBottom_toTopOf="@+id/llBottomNavBar"
+        />
+
+
+    <!--BOTTOM NAVBAR-->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:paddingBottom="10dp"
+        android:id="@+id/llBottomNavBar"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:background="@color/black"
+        android:orientation="horizontal"
+        android:layout_marginBottom="0dp"
+        android:layout_marginLeft="-5dp"
+        >
+        <ImageView
+            android:layout_width="75dp"
+            android:layout_height="match_parent"
+            android:src="@drawable/ic_baseline_home_24"
+            android:backgroundTint="@color/black"
+            android:id="@+id/ibHome"
+            />
+        <ImageView
+            android:layout_width="75dp"
+            android:layout_height="match_parent"
+            android:src="@drawable/ic_baseline_search_24"
+            android:backgroundTint="@color/black"
+            android:id="@+id/ibSearch"
+            />
+        <ImageView
+            android:layout_width="75dp"
+            android:layout_height="match_parent"
+            android:src="@drawable/ic_baseline_add_to_photos_24"
+            android:backgroundTint="@color/black"
+            android:id="@+id/ibAddPost"
+            />
+        <ImageView
+            android:layout_width="75dp"
+            android:layout_height="match_parent"
+            android:src="@drawable/ic_baseline_adb_24"
+            android:backgroundTint="@color/black"
+            android:id="@+id/ibStar"
+            />
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:layout_width="75dp"
+            android:layout_height="match_parent"
+            android:src="@drawable/default_profile_picture"
+            app:civ_border_color="@color/iosBlueColor"
+            android:id="@+id/civAccount"
+            app:civ_border_width="1.5dp"
+            />
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "204615135756",
+    "project_id": "insterapp-ac6ef",
+    "storage_bucket": "insterapp-ac6ef.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:204615135756:android:bc2fb7543e6f230eef7429",
+        "android_client_info": {
+          "package_name": "purple.lightning.insterapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "204615135756-1nf839e6860fbaq83l8ag4enu7ug86ul.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCXAqvE9_8UBepFyDsQo8I8MGsvV6f1jQY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "204615135756-1nf839e6860fbaq83l8ag4enu7ug86ul.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

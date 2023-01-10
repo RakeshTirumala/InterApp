@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/FolderZoro/InsterApp/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.1095" />
+        <entry key="..\:/FolderZoro/InsterApp/app/src/main/res/drawable/gradient_animation.xml" value="0.141" />
+        <entry key="..\:/FolderZoro/InsterApp/app/src/main/res/drawable/gradient_center.xml" value="0.141" />
+        <entry key="..\:/FolderZoro/InsterApp/app/src/main/res/drawable/gradient_end.xml" value="0.141" />
+        <entry key="..\:/FolderZoro/InsterApp/app/src/main/res/drawable/gradient_start.xml" value="0.141" />
+        <entry key="..\:/FolderZoro/InsterApp/app/src/main/res/drawable/ic_baseline_adb_24.xml" value="0.1095" />
+        <entry key="..\:/FolderZoro/InsterApp/app/src/main/res/drawable/ic_baseline_add_photo_alternate_24.xml" value="0.1475" />
+        <entry key="..\:/FolderZoro/InsterApp/app/src/main/res/drawable/ic_baseline_arrow_back_24.xml" value="0.1475" />
+        <entry key="..\:/FolderZoro/InsterApp/app/src/main/res/drawable/ic_baseline_cancel_24.xml" value="0.2075" />
+        <entry key="..\:/FolderZoro/InsterApp/app/src/main/res/drawable/ic_baseline_chat_bubble_24.xml" value="0.1295" />
+        <entry key="..\:/FolderZoro/InsterApp/app/src/main/res/drawable/ic_baseline_grid_on_24.xml" value="0.2075" />
+        <entry key="..\:/FolderZoro/InsterApp/app/src/main/res/drawable/ic_baseline_home_24.xml" value="0.1295" />
+        <entry key="..\:/FolderZoro/InsterApp/app/src/main/res/drawable/ic_baseline_home_clicked_24.xml" value="0.1295" />
+        <entry key="..\:/FolderZoro/InsterApp/app/src/main/res/drawable/ic_baseline_like_24.xml" value="0.1095" />
+        <entry key="..\:/FolderZoro/InsterApp/app/src/main/res/drawable/ic_baseline_liked.xml" value="0.1095" />
+        <entry key="..\:/FolderZoro/InsterApp/app/src/main/res/drawable/ic_baseline_linear_24.xml" value="0.1475" />
+        <entry key="..\:/FolderZoro/InsterApp/app/src/main/res/drawable/ic_baseline_lock_person_24.xml" value="0.1005" />
+        <entry key="..\:/FolderZoro/InsterApp/app/src/main/res/drawable/ic_baseline_lock_reset_24.xml" value="0.1005" />
+        <entry key="..\:/FolderZoro/InsterApp/app/src/main/res/drawable/ic_baseline_logout_24.xml" value="0.1005" />
+        <entry key="..\:/FolderZoro/InsterApp/app/src/main/res/drawable/ic_baseline_mail_outline_24.xml" value="0.1475" />
+        <entry key="..\:/FolderZoro/InsterApp/app/src/main/res/drawable/ic_baseline_message_24.xml" value="0.1295" />
+        <entry key="..\:/FolderZoro/InsterApp/app/src/main/res/drawable/ic_baseline_mode_comment_24.xml" value="0.1095" />
+        <entry key="..\:/FolderZoro/InsterApp/app/src/main/res/drawable/ic_baseline_photo_camera_24.xml" value="0.141" />
+        <entry key="..\:/FolderZoro/InsterApp/app/src/main/res/drawable/ic_baseline_recommend_24.xml" value="0.1095" />
+        <entry key="..\:/FolderZoro/InsterApp/app/src/main/res/drawable/ic_baseline_search_24.xml" value="0.1295" />
+        <entry key="..\:/FolderZoro/InsterApp/app/src/main/res/drawable/ic_baseline_settings_24.xml" value="0.1475" />
+        <entry key="..\:/FolderZoro/InsterApp/app/src/main/res/drawable/ic_baseline_sports_volleyball_24.xml" value="0.1095" />
+        <entry key="..\:/FolderZoro/InsterApp/app/src/main/res/drawable/ic_baseline_star_24.xml" value="0.1095" />
+        <entry key="..\:/FolderZoro/InsterApp/app/src/main/res/drawable/ic_launcher_background.xml" value="0.1095" />
+        <entry key="..\:/FolderZoro/InsterApp/app/src/main/res/drawable/inster_logo_background.xml" value="0.141" />
+        <entry key="..\:/FolderZoro/InsterApp/app/src/main/res/drawable/rounded_button.xml" value="0.1475" />
+        <entry key="..\:/FolderZoro/InsterApp/app/src/main/res/drawable/rounded_edittext.xml" value="0.141" />
+        <entry key="..\:/FolderZoro/InsterApp/app/src/main/res/drawable/rounded_loginbutton.xml" value="0.141" />
+        <entry key="..\:/FolderZoro/InsterApp/app/src/main/res/drawable/rounded_postbutton.xml" value="0.1475" />
+        <entry key="..\:/FolderZoro/InsterApp/app/src/main/res/drawable/rounded_signupbutton.xml" value="0.141" />
+        <entry key="..\:/FolderZoro/InsterApp/app/src/main/res/font/amiko.xml" value="0.24114583333333334" />
+        <entry key="..\:/FolderZoro/InsterApp/app/src/main/res/font/comic_neue_bold.xml" value="0.24114583333333334" />
+        <entry key="..\:/FolderZoro/InsterApp/app/src/main/res/font/comic_neue_light.xml" value="0.24114583333333334" />
+        <entry key="..\:/FolderZoro/InsterApp/app/src/main/res/font/pacifico.xml" value="0.24114583333333334" />
+        <entry key="..\:/FolderZoro/InsterApp/app/src/main/res/layout/activity_account.xml" value="0.2" />
+        <entry key="..\:/FolderZoro/InsterApp/app/src/main/res/layout/activity_home.xml" value="0.20260416666666667" />
+        <entry key="..\:/FolderZoro/InsterApp/app/src/main/res/layout/activity_inster.xml" value="0.20260416666666667" />
+        <entry key="..\:/FolderZoro/InsterApp/app/src/main/res/layout/activity_login.xml" value="0.20260416666666667" />
+        <entry key="..\:/FolderZoro/InsterApp/app/src/main/res/layout/activity_main.xml" value="0.20260416666666667" />
+        <entry key="..\:/FolderZoro/InsterApp/app/src/main/res/layout/activity_new_post.xml" value="0.20260416666666667" />
+        <entry key="..\:/FolderZoro/InsterApp/app/src/main/res/layout/activity_register.xml" value="0.2" />
+        <entry key="..\:/FolderZoro/InsterApp/app/src/main/res/layout/activity_settings.xml" value="0.20260416666666667" />
+        <entry key="..\:/FolderZoro/InsterApp/app/src/main/res/layout/grid_item.xml" value="0.20260416666666667" />
+        <entry key="..\:/FolderZoro/InsterApp/app/src/main/res/layout/linear_item.xml" value="0.2" />
+        <entry key="..\:/FolderZoro/InsterApp/app/src/main/res/layout/localuser_rv_item_custom_row.xml" value="0.20260416666666667" />
+        <entry key="..\:/FolderZoro/InsterApp/app/src/main/res/layout/posting_popup.xml" value="0.2" />
+        <entry key="..\:/FolderZoro/InsterApp/app/src/main/res/layout/settings_list_item_row.xml" value="0.20260416666666667" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

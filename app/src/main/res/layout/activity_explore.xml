@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ExploreActivity"
+    android:background="@color/black">
+    
+    <SearchView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:queryHint="@string/search"
+        android:queryBackground="@drawable/rounded_search_query_background"
+        android:background="@color/black"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:id="@+id/svSearch"
+        android:layout_marginTop="5dp"
+        />
+
+    <ListView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/lvUsers"
+        app:layout_constraintTop_toBottomOf="@+id/svSearch"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:visibility="gone"
+        />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/rvLinearExploreActivityPosts"
+        app:layout_constraintTop_toBottomOf="@+id/svSearch"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:layout_marginTop="50dp"
+        android:visibility="gone"
+        />
+    <ImageView
+        android:layout_width="50dp"
+        android:layout_height="match_parent"
+        app:layout_constraintTop_toBottomOf="@+id/rvLinearExploreActivityPosts"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:src="@drawable/ic_baseline_mood_bad_24"
+        android:id="@+id/ivMoodBad"
+        android:visibility="visible"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@+id/ivMoodBad"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:text="Nothing to show..."
+        android:textColor="@color/white"
+        android:paddingTop="10dp"
+        android:visibility="visible"
+        android:id="@+id/tvNothing"
+        />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
